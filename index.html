@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lịch Học Trong Năm - Gia Sư Nhật Quang</title>
+    <title>Lịch Học Gia Sư Nhật Quang</title>
     <style>
         * {
             margin: 0;
@@ -234,13 +234,25 @@
 
         .session-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #667eea, #764ba2);
             color: white;
             padding: 4px 8px;
             border-radius: 12px;
             font-size: 0.8rem;
             margin-left: 8px;
             font-weight: 500;
+        }
+
+        /* Màu sắc khác nhau cho từng buổi */
+        .session-badge.morning {
+            background: linear-gradient(135deg, #feca57, #ff9ff3);
+        }
+
+        .session-badge.afternoon {
+            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+        }
+
+        .session-badge.evening {
+            background: linear-gradient(135deg, #667eea, #764ba2);
         }
 
         @media (max-width: 768px) {
@@ -295,12 +307,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
             </div>
@@ -313,12 +325,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
             </div>
@@ -331,12 +343,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
             </div>
@@ -349,12 +361,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
             </div>
@@ -367,12 +379,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
             </div>
@@ -385,12 +397,12 @@
                     <div class="time-slot">
                         <span class="time-period">Ca 1:</span>
                         <span>17:00 – 18:30</span>
-                        <span class="session-badge">Buổi chiều</span>
+                        <span class="session-badge afternoon">Buổi chiều</span>
                     </div>
                     <div class="time-slot">
                         <span class="time-period">Ca 2:</span>
                         <span>18:30 – 20:00</span>
-                        <span class="session-badge">Buổi tối</span>
+                        <span class="session-badge evening">Buổi tối</span>
                     </div>
                 </div>
                 <div class="subject">
@@ -398,7 +410,7 @@
                     <div class="time-slot">
                         <span class="time-period">Sáng:</span>
                         <span>08:00 – 09:30</span>
-                        <span class="session-badge">Buổi sáng</span>
+                        <span class="session-badge morning">Buổi sáng</span>
                     </div>
                 </div>
             </div>
@@ -411,7 +423,7 @@
                     <div class="time-slot">
                         <span class="time-period">Sáng:</span>
                         <span>08:00 – 09:30</span>
-                        <span class="session-badge">Buổi sáng</span>
+                        <span class="session-badge morning">Buổi sáng</span>
                     </div>
                 </div>
             </div>
